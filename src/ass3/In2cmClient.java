@@ -13,7 +13,6 @@ public class In2cmClient {
     
 	public static void main(String args[]) throws Exception {
 		
-		System.out.println(args[0]);
 		if (args.length != 1) {
 			throw new IllegalArgumentException("Usage: In2cmClient <a number in inches to convert to cm>");
 		}
